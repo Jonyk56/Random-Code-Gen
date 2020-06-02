@@ -15,8 +15,10 @@ yarn
 ```js
 const codeGen = require("random-code-gen"); //Getting package
 
-let code = codeGen(5); //Making a code with length of 5
-console.log('Generated Code is "' + code + '"'); //Logging the code :)
+let code = codeGen.random(5);//making 5 digit random code
+let code2 = codeGen.number(6);//making 6 digit random number
+console.log('Generated Random Code is "' + code + '"');//logging the code
+console.log('Generated Number Code is "' + code2 + '"');//logging the code2
 ```
 
 ## Contributing
