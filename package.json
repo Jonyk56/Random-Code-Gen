@@ -6,7 +6,6 @@
   "scripts": {
     "test": "node test.js"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "author": "sudhanplayz",
   "engines": {
     "node": "12.x"
