@@ -7,7 +7,6 @@
     "test": "node test.js"
   },
   "author": "@SudhanPlayz",
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "engines": {
     "node": "12.x"
   },
