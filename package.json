@@ -1,13 +1,18 @@
 {
   "name": "random-code-gen",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A simple function to generate codes for anything what you need like exspecially making ids.",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
-  "author": "sudhanplayz",
+  "author": "@SudhanPlayz",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "engines": {
     "node": "12.x"
+  },
+  "repository" : {
+    "type" : "git",
+    "url": "ssh://git@github.com/SudhanPlayz/Random-Code-Gen.git"
   }
 }
